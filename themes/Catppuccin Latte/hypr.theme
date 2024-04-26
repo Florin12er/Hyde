@@ -2,9 +2,7 @@ $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
 exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-grey'
 exec = gsettings set org.gnome.desktop.interface gtk-theme 'Catppuccin-Latte'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'
-exec = /home/florin/scripts/vim-theme.sh catppuccin-latte 
-exec = /home/florin/scripts/vscode.sh "Catppuccin Latte" "catppuccin-latte"
-
+exec = /home/florin/scripts/vim-theme.sh catppuccin-latte
 general {
     gaps_in = 3
     gaps_out = 8

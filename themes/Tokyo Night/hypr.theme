@@ -2,9 +2,7 @@ $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
 exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-purple'
 exec = gsettings set org.gnome.desktop.interface gtk-theme 'Tokyo-Night'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
-exec = /home/florin/scripts/vim-theme.sh tokyonight 
-exec = /home/florin/scripts/vscode.sh "Tokyo Night Storm" "vscode-icons"
-
+exec = /home/florin/scripts/vim-theme.sh tokyonight
 general {
     gaps_in = 3
     gaps_out = 8

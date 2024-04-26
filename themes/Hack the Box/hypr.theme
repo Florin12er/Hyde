@@ -14,7 +14,6 @@ exec = gsettings set org.gnome.desktop.interface cursor-theme 'HackCursor'
 exec = gsettings set org.gnome.desktop.interface cursor-size 20
 exec = hyprctl setcursor HackCursor 20
 exec = /home/florin/scripts/vim-theme.sh catppuccin  
-exec = /home/florin/scripts/vscode.sh "Catppuccin Mocha" "catppuccin-mocha"
 
 general {
     gaps_in = 8

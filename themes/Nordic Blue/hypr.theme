@@ -9,10 +9,6 @@ $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
 exec = gsettings set org.gnome.desktop.interface icon-theme 'Nordzy'
 exec = gsettings set org.gnome.desktop.interface gtk-theme 'Nordic-Blue'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
-exec = /home/florin/scripts/vim-theme.sh nord 
-exec = /home/florin/scripts/vscode.sh "Nordic King" "file-icons"
-
-
 
 general {
     gaps_in = 3

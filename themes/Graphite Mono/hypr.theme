@@ -2,9 +2,7 @@ $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
 exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-grey'
 exec = gsettings set org.gnome.desktop.interface gtk-theme 'Graphite-Mono'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
-exec = /home/florin/scripts/vim-theme.sh terafox 
-exec = /home/florin/scripts/vscode.sh "Dark-Dracula" "file-icons"
-
+exec = /home/florin/scripts/vim-theme.sh catppuccin-mocha
 
 general {
     gaps_in = 8

@@ -6,7 +6,6 @@ exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 exec = hyprctl setcursor onedark-cursor 25
 exec = gsettings set org.gnome.desktop.interface cursor-size 25
 exec = /home/florin/scripts/vim-theme.sh onedark 
-exec = /home/florin/scripts/vscode.sh "One Dark Pro Darker" "icons"
 
 
 general {

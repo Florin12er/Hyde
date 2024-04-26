@@ -2,11 +2,7 @@ $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
 exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-yellow'
 exec = gsettings set org.gnome.desktop.interface gtk-theme 'Edge-Runner'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
-exec = /home/florin/scripts/vim-theme.sh cyberdream  
-exec = /home/florin/scripts/vscode.sh "Cyberpunk" "sweet-vscode-icons"
-
-
-
+exec = /home/florin/scripts/vim-theme.sh cyberdream
 general {
     gaps_in = 8
     gaps_out = 15

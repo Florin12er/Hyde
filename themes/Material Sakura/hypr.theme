@@ -2,10 +2,7 @@ $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
 exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-black'
 exec = gsettings set org.gnome.desktop.interface gtk-theme 'Material-Sakura'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'
-exec = /home/florin/scripts/vim-theme.sh rose-pine-dawn 
-exec = /home/florin/scripts/vscode.sh "Rosé Pine Dawn" "rose-pine-icons"
-
-
+exec = /home/florin/scripts/vim-theme.sh rose-pine-dawn
 general {
     gaps_in = 8
     gaps_out = 14

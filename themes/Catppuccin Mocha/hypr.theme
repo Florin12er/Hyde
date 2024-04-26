@@ -3,10 +3,6 @@ exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-dracula
 exec = gsettings set org.gnome.desktop.interface gtk-theme 'Catppuccin-Mocha'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 exec = /home/florin/scripts/vim-theme.sh catppuccin-mocha
-exec = /home/florin/scripts/vscode.sh "Catppuccin Mocha" "catppuccin-mocha"
-
-
-
 general {
     gaps_in = 3
     gaps_out = 8

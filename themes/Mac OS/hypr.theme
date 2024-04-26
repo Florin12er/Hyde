@@ -5,7 +5,6 @@ exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 exec = gsettings set org.gnome.desktop.interface cursor-size 20
 exec = hyprctl setcursor MacOS-Cursor 20
 exec = /home/florin/scripts/vim-theme.sh github_dark_default
-exec = /home/florin/scripts/vscode.sh "Github Dark Default" "file-icons"
 
 general {
     gaps_in = 4
