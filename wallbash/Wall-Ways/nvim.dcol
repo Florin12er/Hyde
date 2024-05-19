@@ -1,0 +1,47 @@
+$HOME/.config/nvim/lua/FlorinVim/test.lua
+
+ require("palette").setup({
+      palettes = {
+        main = "custom_main_palette",
+        accent = "custom_accent_palette",
+        state = "custom_state_palette",
+      },
+
+      custom_palettes = {
+        main = {
+          custom_main_palette = {
+            color0 = "#<wallbash_pry1>",
+            color1 = "#<wallbash_pry2>",
+            color2 = "#<wallbash_pry3>",
+            color3 = "#<wallbash_pry4>",
+            color4 = "#<wallbash_pry1>",
+            color5 = "#<wallbash_pry2>",
+            color6 = "#<wallbash_pry3>",
+            color7 = "#<wallbash_pry4>",
+            color8 = "#<wallbash_pry1>",
+          },
+        },
+        accent = {
+          custom_accent_palette = {
+            accent0 = "#<wallbash_txt1>",
+            accent1 = "#<wallbash_txt2>",
+            accent2 = "#<wallbash_txt3>",
+            accent3 = "#<wallbash_txt4>",
+            accent4 = "#<wallbash_txt1>",
+            accent5 = "#<wallbash_txt2>",
+            accent6 = "#<wallbash_txt3>",
+          },
+        },
+        state = {
+          custom_state_palette = {
+            error = "#D97C8F",
+            warning = "#D9AE7E",
+            hint = "#D9D87E",
+            ok = "#A5D9A7",
+            info = "#8BB9C8",
+          },
+        },
+      },
+    })
+
+    vim.cmd([[colorscheme palette]])

@@ -1,4 +1,4 @@
-~/.config/BetterDiscord/data/stable/custom.css|${scrDir}/wallbashdiscord.sh
+~/.config/BetterDiscord/data/canary/custom.css|${scrDir}/wallbashdiscord.sh
 
 :root {
 	--accent-color: #<wallbash_1xa1>;
