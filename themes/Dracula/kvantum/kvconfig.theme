@@ -1,4 +1,5 @@
 $HOME/.config/Kvantum/wallbash/wallbash.kvconfig
+
 [%General]
 author=Eliver Lara
 comment=A dark theme created using the awesome Dracula color palette.
@@ -29,9 +30,9 @@ progressbar_thickness=2
 menubar_mouse_tracking=true
 toolbutton_style=1
 double_click=false
-translucent_windows=true
-blurring=true
-popup_blurring=true
+translucent_windows=false
+blurring=false
+popup_blurring=false
 vertical_spin_indicators=false
 spin_button_width=32
 fill_rubberband=false
@@ -75,7 +76,7 @@ shadowless_popup=false
 
 [GeneralColors]
 window.color=#1e1f29
-base.color=#282a36
+base.color=#1e1f29
 alt.base.color=#252a3f78
 button.color=#1e1e20
 light.color=#0C0E15
@@ -97,9 +98,9 @@ progress.indicator.text.color=#aaaaac
 [Hacks]
 transparent_ktitle_label=true
 transparent_dolphin_view=true
-transparent_pcmanfm_sidepane=true
+transparent_pcmanfm_sidepane=false
 blur_translucent=true
-transparent_menutitle=true
+transparent_menutitle=false
 respect_darkness=true
 kcapacitybar_as_progressbar=true
 force_size_grip=true
